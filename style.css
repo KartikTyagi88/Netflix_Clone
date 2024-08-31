@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    background-image: url("netflixbg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* we should set the background size which is a game changer. */
+    /* background-size: 100vw; */
+    /* TO MAKE IT RESPONSIVE WE CAN DO THE FOLLOWING:  */
+    background-size: max(1200px, 100vw);
+    height: 644px;
+    position: relative;
+}
+
+.main .box{
+    height: 644px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top:0;
+}
+nav{
+    /* To make the navigation bar exactly oriented as that of netflix:  */
+    /* THE BELOW THREE LINES ARE VERY IMPORTANT:  */
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img{
+    width: 170px;
+    /* IF WE WANT THAT OPACITY DOES NOT APPLY TO THE LOGO OF NETFLIX THEN WE HAVE TO GIVE IT Z-INDEX SO THAT IT STACKS AT TOP  */
+    position: relative;
+    z-index: 10;
+    margin-top: 35px;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.Language{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-right: 13px;
+}
+
+.English{
+    color: white;
+    background-color: black;
+    width: 120px;
+    font-weight: 550;
+    font-size: 17px;
+   padding-left: 25px;
+   padding-top: 4px;
+   padding-bottom: 4px; 
+}
+
+.SignIn{
+    background-color: rgb(224, 20, 20);
+    color: white;
+    border: rgb(224, 20, 20);
+    width: 80px;
+    font-size: 17px;
+    font-weight: 550;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 62px;
+    font-weight: 900;
+    position: relative;
+}
+
+.cont2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 62px;
+    font-weight: 900;
+    position: relative;
+}
+
+.cont3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    font-size: 23px;
+    font-weight: 550;
+    margin-top: 12px;
+}
+
+.cont4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     color: white;
+     position: relative;
+     margin-top: 35px;
+     
+     font-size: 18px;
+}
+
+.container{
+    margin-top: 20vh;
+}
+
+.cont5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    z-index: 10;
+    position: relative;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.66);
+}
+
+input {
+    width: 25vw;
+    background-color: black;
+    border: 1px solid gray;
+    color: rgba(255, 255, 255, 0.489);
+    font-size: 18px;
+    padding: 18px;
+    border-radius: 3px;
+}
+
+.red{
+    background-color: rgb(224, 20, 20);
+    font-size: 25px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 32px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    font-weight: 550;
+    width: 13vw;
+}
+
+.separation{
+    margin-top: 10px;
+    width: 100vw;
+    height: 8px;
+    background-color: rgba(128, 128, 128, 0.724);
+}
+
+main{
+    margin-top: 50px;
+}
+
+.trend{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 200px;
+}
+
+.cont7{
+    display: flex;
+    gap: 25px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+.Country{
+    color: white;
+    background-color: black;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 120px;
+}
+
+.Movies{
+    color: white;
+    background-color: black;
+    padding: 8px;
+    border: 1px soild gray;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 120px;
+}
+
+.images{
+    margin-top: 40px;
+    margin-left: 14vw;
+    
+}
+
+.images img{
+    border-radius: 10px; 
+}
+
+.imgbox{
+    display: flex;
+    gap: 50px;
+    max-width: 70vw;
+    overflow: auto;
+}
+
+.cont8{
+    margin-top: 80px;
+    color: white;
+    margin-left: 200px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.purple{
+    display: flex;
+    gap: 20px;
+    margin-left: 13vw;
+    margin-top: 20px;
+}
+
+.boxes{
+    height: 350px;
+    width: 250px;
+    /* background-color: rgb(32, 19, 53); */
+    background-color: rgb(21, 10, 51);
+    border-radius: 15px;
+}
+
+.header{
+    color: white;
+    font-size: 25px;
+    font-weight: 550;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.body{
+    color: rgba(255, 255, 255, 0.71);
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.photo1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+.photo2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+.photo3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 105px;
+    margin-right: 20px;
+}
+.photo4{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 45px;
+    margin-right: 20px;
+}
+
+.photo1 img{
+    height: 60px;
+}
+.photo2 img{
+    height: 60px;
+}
+.photo3 img{
+    height: 60px;
+}
+.photo4 img{
+    height: 60px;
+}
+
+.title{
+    margin-top: 80px;
+    color: white;
+    margin-left: 200px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.faq{
+    margin-left: 13vw;
+    margin-top: 20px;
+}
+
+.faqs{
+    background-color: rgba(128, 128, 128, 0.381);
+    color: white;
+    margin: 10px;
+    width: 70vw;
+    font-size: 26px;
+    padding: 25px;
+    font-weight: 400;
+}
+
+.faqs:hover{
+    background-color: rgba(128, 128, 128, 0.795);
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+/* THESE ARE VERY IMPORTANT MEDIA QUERIES:  */
+@media only screen and (max-width: 1200px) {
+    body{
+        width: max(100vw, 1200px);
+        height: auto;
+    }
+    .main{
+        height: 100%;
+    }
+
+    .main .box{
+        height: 100%;
+    }
+
+    nav{
+        width: 80%;
+        justify-content: space-between;
+    }
+    nav img{
+        height: 150px;
+        width: 140px;    
+    }
+    .English{
+        width: 100px;
+        padding: auto;
+        margin: auto;
+        font-size: 15px;
+    }
+    .SignIn{
+        width: 100px;
+        
+        font-size: 15px;
+    }
+    .cont5{
+        display: block;
+        
+    }
+    input {
+        width: 80%;
+        margin-bottom: 1%;
+        margin-left: 8%;
+    }
+
+    .red{
+        width: 20%;
+        font-size: 150%;
+        margin-left: 35%;
+        text-align: center;
+    }
+
+    
+    .imgbox{
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .separation{
+        position: relative;
+        z-index: 10;
+        width: 100%;
+    }
+
+    .trend{
+        font-size: 55px;
+        margin-left: 400px;
+    }
+    .cont7{
+        display: block;
+    }
+    .Country{
+        width: 30%;
+        font-size: 40px;
+        text-align: center;
+        margin-left: 23%;
+        margin-bottom: 5%;
+    }
+    .Movies{
+        width: 30%;
+        font-size: 40px;
+        text-align: center;
+        margin-left: 23%;
+    }
+
+    .cont8{
+        font-size: 350%;
+        margin-left: 30%;
+    }
+    .purple{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .boxes{
+        height: 150%;
+        width: 50%;
+
+    }
+
+    .title{
+        font-size: 350%;
+        margin-left: 20%;
+    }
+
+    .faqs{
+        width: 80%;
+        text-align: center;
+        font-size: 50px;
+        margin: 2%;
+    }
+
+    }
+
+
+
+
